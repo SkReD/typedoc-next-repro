@@ -1,0 +1,5 @@
+{
+    "$schema": "https://typedoc.org/schema.json",
+    "exclude": ["**/*.spec.(ts|js)", "**/node_modules/@types/node/**/*"],
+    "groupOrder": ["Tokens", "Enumerations", "Classes", "Interfaces", "Type Aliases"],
+}

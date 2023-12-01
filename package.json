@@ -1,0 +1,17 @@
+{
+  "private": true,
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "scripts": {
+    "build": "tsc -b ./tsconfig.solution.json"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  }
+}

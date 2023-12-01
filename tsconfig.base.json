@@ -1,0 +1,30 @@
+{
+    "compilerOptions": {
+      "composite": true,
+      "strict": true,
+      "noImplicitAny": true,
+      "skipLibCheck": true,
+      "esModuleInterop": true,
+      "allowSyntheticDefaultImports": true,
+      "target": "es2018",
+      "experimentalDecorators": true,
+      "resolveJsonModule": true,
+      "strictNullChecks": true,
+      "lib": [
+        "esnext.asynciterable",
+        "es2016",
+        "es2017",
+        "es2018",
+        "es2019",
+        "ES2021.Promise",
+        "es7"
+      ],
+      "moduleResolution": "node16",
+      "module": "Node16",
+      "noUnusedLocals": true,
+      "noUnusedParameters": true,
+      "verbatimModuleSyntax": false,
+      "jsx": "react-jsx"
+    }
+  }
+  

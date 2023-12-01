@@ -1,0 +1,6 @@
+*.js.map
+dev.env
+*.ts
+!*.d.ts
+__tests__
+__snapshots__
